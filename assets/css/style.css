@@ -1,16 +1,22 @@
-/* Custom Hero Background */
+/* Menjamin font Inter diterapkan di semua device */
+body {
+    font-family: 'Inter', sans-serif !important;
+    scroll-behavior: smooth;
+}
+
 .hero-section {
-    background: linear-gradient(rgba(0, 31, 63, 0.8), rgba(0, 31, 63, 0.8)), 
-                url('https://images.unsplash.com/photo-1590641645618-973059374092?auto=format&fit=crop&w=1600&q=80');
+    /* Path relative menuju folder img */
+    background: linear-gradient(rgba(0, 33, 71, 0.85), rgba(0, 33, 71, 0.95)), 
+                url('../img/hero-bg.jpg'); 
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
 }
 
-.nav-link:hover {
-    color: #f97316; /* Orange hover */
-    transition: 0.3s;
-}
-
-html {
-    scroll-behavior: smooth;
+/* Responsivitas Mobile */
+@media (max-width: 768px) {
+    .hero-section h1 {
+        font-size: 2.8rem !important;
+        line-height: 1.2;
+    }
 }
