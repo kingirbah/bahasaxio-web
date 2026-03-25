@@ -1,28 +1,25 @@
-/* Custom Global Styles */
+/* =================================================================
+   Global Styles
+   ================================================================= */
 body {
     scroll-behavior: smooth;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* Hero Background dengan Overlay Gelap agar Text Terbaca */
+/* =================================================================
+   Hero Section — Background + Overlay
+   ================================================================= */
 .hero-section {
-    background: linear-gradient(rgba(0, 33, 71, 0.85), rgba(0, 33, 71, 0.85)), 
+    background: linear-gradient(rgba(0, 33, 71, 0.85), rgba(0, 33, 71, 0.85)),
                 url('https://images.unsplash.com/photo-1494412519320-aa613dfb7738?auto=format&fit=crop&w=1600&q=80');
     background-size: cover;
     background-position: center;
-    background-attachment: fixed; /* Parallax effect */
+    background-attachment: fixed;
 }
 
-/* Hover Effect Layanan */
-.service-card {
-    transition: transform 0.3s ease;
-}
-
-.service-card:hover {
-    transform: translateY(-10px);
-}
-
-/* Nav Link Active */
+/* =================================================================
+   Navbar Active Link
+   ================================================================= */
 .nav-active {
     color: #f97316 !important;
 }

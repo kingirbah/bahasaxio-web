@@ -1,8 +1,10 @@
-# BAHASAXIO — Corporate Landing Page
+# BAHASAXIO — Corporate Website
 
-> Landing page for **PT Bahasa Aksi Mega Solusindo** — a modern logistics & supply chain company based in South Jakarta, Indonesia.
+> Official landing page for **PT Bahasa Aksi Mega Solusindo** — a modern logistics & supply chain company based in South Jakarta, Indonesia.
 
-🌐 **Live:** [kingirbah.github.io/bahasaxio-web](https://kingirbah.github.io/bahasaxio-web)
+🌐 **Live Preview:** [kingirbah.github.io/bahasaxio-web](https://kingirbah.github.io/bahasaxio-web)
+
+> ⚠️ This website is currently **unreleased** and under active development.
 
 ---
 
@@ -12,9 +14,9 @@
 
 ---
 
-## About the Company
+## About
 
-BAHASAXIO is a newly established logistics provider dedicated to agility, transparency, and precision in international freight management. The company serves SMEs and growing enterprises through a global network of partners across major continents.
+BAHASAXIO is a newly established logistics provider dedicated to agility, transparency, and precision in international freight management — serving SMEs and growing enterprises through a global network of partners.
 
 ---
 
@@ -22,7 +24,7 @@ BAHASAXIO is a newly established logistics provider dedicated to agility, transp
 
 | Section | Description |
 |---|---|
-| **Hero** | Brand intro with CTA — "Start Your Shipment" |
+| **Hero** | Brand intro with parallax background & CTA |
 | **Stats** | Global network, 100% commitment, secure cargo, 24/7 support |
 | **About** | Company background & key strengths |
 | **Services** | Air Freight, Ocean Freight, Customs Clearance |
@@ -35,7 +37,7 @@ BAHASAXIO is a newly established logistics provider dedicated to agility, transp
 
 - HTML5
 - Tailwind CSS (CDN)
-- Font Awesome Icons
+- Font Awesome 6
 - Vanilla JavaScript
 
 ---
@@ -46,13 +48,15 @@ BAHASAXIO is a newly established logistics provider dedicated to agility, transp
 bahasaxio-web/
 ├── index.html
 └── assets/
+    ├── style.css        # Global styles & hero background
+    ├── script.js        # Navbar scroll & scroll spy
     └── img/
         ├── logo.png
-        └── logos.png
+        └── logos.png    # Favicon
 ```
 
 ---
 
-## License
+## Status
 
-Personal project — built for PT Bahasa Aksi Mega Solusindo.
+🚧 **Unreleased** — Work in progress. Not yet officially launched.

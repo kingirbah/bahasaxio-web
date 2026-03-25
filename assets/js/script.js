@@ -1,4 +1,6 @@
-// 1. Script untuk merubah tampilan navbar saat scroll
+// =================================================================
+// Navbar — Shrink on Scroll
+// =================================================================
 window.addEventListener('scroll', function() {
     const navbar = document.getElementById('navbar');
     if (window.scrollY > 100) {
@@ -10,7 +12,9 @@ window.addEventListener('scroll', function() {
     }
 });
 
-// 2. Simple Scroll Spy (Menandai menu aktif saat scroll)
+// =================================================================
+// Scroll Spy — Active Nav Link
+// =================================================================
 const sections = document.querySelectorAll('section');
 const navLinks = document.querySelectorAll('.nav-link');
 
@@ -18,7 +22,6 @@ window.addEventListener('scroll', () => {
     let current = '';
     sections.forEach(section => {
         const sectionTop = section.offsetTop;
-        const sectionHeight = section.clientHeight;
         if (pageYOffset >= sectionTop - 150) {
             current = section.getAttribute('id');
         }
