@@ -10,7 +10,8 @@
 
 ## Preview
 
-> Add a screenshot here.
+### Home Page
+![Home Page](assets/img/home_page.png)
 
 ---
 
